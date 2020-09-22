@@ -1,0 +1,62 @@
+
+body{
+	font-family: "Avenir Next";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.service_img{
+    margin: 0;
+    padding: 0;
+    height: 166px;
+    width: 228px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #efefef;
+}
+
+#nikkengakuin {
+	list-style: none;
+}
+#books {
+	list-style: none;
+}
+
+h2{
+	margin: 5px 0 10px;
+    padding: 5px 10px 0;
+    height: 40px;
+}
+
+.arrow {
+	background-color: #c40026;
+    margin: -10px 0 1px 200px;
+    padding: 0 2px 2px 0;
+    display: block;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 350px;
+    width: 25px;   
+}
+
+.service_info {
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+   width: 228px;
+}
+
+h3{
+	margin: 5px 0 10px;
+    padding: 5px 10px 0;
+    height: 40px;
+}
+
