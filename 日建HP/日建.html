@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	<!-- レスポンシブデザイン用 -->
 	<title>建築資料研究社／日建学院</title>
 	<link rel="stylesheet" type="text/css" href="試作.css">
 	
@@ -10,7 +11,7 @@
 	<div id="header-background"></div>
 	<div id="header">
 		<div id="header-logo">	
-			<img src="https://www.ksknet.co.jp/img/logo.png" width="313" height="29" alt="株式会社建築資料研究社　日建学院">
+			<img src="https://www.ksknet.co.jp/img/logo.png" alt="株式会社建築資料研究社　日建学院">
 		</div>	
 		<div id="header-function">
 			<ul>
@@ -22,31 +23,31 @@
 				</li>
 			</ul>
 		</div>
-		<div id="header-list">
-			<ul id="ul1">
-				<li id="navi_home">
-					<a href="/index.aspx">＞ ホーム</a>
-				</li>
-				<li>
-					<a href="/index.aspx">＞ 会社概要</a>
-				</li>
-				<li>
-					<a href="/index.aspx">＞ サービス案内</a>
-				</li>
-				<li>
-					<a href="/index.aspx">＞ アクセスマップ</a>
-				</li>
-			</ul>
-		</div>
-		<img src="img/99d8a90776c2044755242816a2fd3341_w.jpg" alt="aaaa" id="img_1"　>
 	</div>
+	<nav id="header-list">
+		<ul id="ul1">
+			<li id="navi_home">
+				<a href="/index.aspx">＞ ホーム</a>
+			</li>
+			<li>
+				<a href="/index.aspx">＞ 会社概要</a>
+			</li>
+			<li>
+				<a href="/index.aspx">＞ サービス案内</a>
+			</li>
+			<li>
+				<a href="/index.aspx">＞ アクセスマップ</a>
+			</li>
+		</ul>
+	</nav>
+	<img src="img/photo-1447752875215-b2761acb3c5d.jpg" alt="自然" id="img_1"　>
 	<main>
 		<div id="index_main_cont">
 			<ul id="service_list">
-				<ul id="nikkengakuin">
+				<li id="nikkengakuin">
 			    <!--nikkengakuin-->
 					<p class="service_img">
-						<img src="img/nikkengakuin_img.jpg">
+						<img src="img/nikkengakuin_img.jpg" alt="日建学院" id="img_2"　>
 						<h2>日建学院</h2>
 					</p>
 					<p class="service_info">
@@ -55,67 +56,175 @@
 						<br>
 						あなたの「やる気」を応援します。
 					</p>
-				<!--book-->
+				</li>
+				<!--books-->
+				<li id="books">
 					<p class="service_img">
 						<img src="img/books_img.jpg">
 						<h2>BOOKS&MAGAZINES</h2>
 					</p>
-					<p class="book">
+					<p class="service_info">
 						建築関係の書籍を取り扱っています。
 					</p>
+				</li>
 				<!--computer-->
+				<li id="computer">
 					<p class="service_img">
 						<img src="img/computer_img.jpg">
 						<h2>Nikken Computer Series</h2>
 					</p>
-					<p class="computer">
+					<p class="service_info">
 						建築・土木専用ソフトウェアの販売通じて業務の合理化をお手伝いします。
 					</p>
+				</li>
 				<!--luchta-->
+				<li id="luchta">
 					<p class="service_img">
 						<img src="img/luchta_img.jpg">
 						<h2>LUCHTA</h2>
 					</p>
-					<p class="luchta">
+					<p class="service_info">
 						建築系学生のための情報サイトです。学生にとって必要な情報をリアルに発信しています。
 					</p>
+				</li>
 				<!--npc-->
+				<li id="npc">
 					<p class="service_img">
 						<img src="img/npc_img.jpg">
 						<h2>法人（企業）向け教育支援プログラム</h2>
 					</p>
-					<p class="npc">
+					<p class="service_info">
 						即戦力強化のための人材教育プログラムです。法人（企業）向けの研修・模擬試験をご提供します。
 					</p>
+				</li>
 				<!--school-->
+				<li id="school">
 					<p class="service_img">
 						<img src="img/school_img_sp.png">
-						<h2>法人（学校）向けサービスメニュー</h2>
+						<h2>法人（学校）向け
+						<br>
+						サービスメニュー</h2>
 					</p>
-					<p class="school">
+					<p class="service_info">
 						建設業界へ就職を希望される学生の皆様へ、学生向けサービスメニューを案内します。
 					</p>
+				</li>
 				<!--vs-->
+				<li id="vs">
 					<p class="service_img">
 						<img src="img/vs_img.jpg" alt>
 						<h2>職業紹介事業</h2>
 					</p>
-					<p class="vs">
+					<p class="service_info">
 						介護、福祉や建築、不動等への就職をサポートします。
 					</p>
+				</li>
 				<!--recruit-->
+				<li id="recruit">
 					<p class="service_img">
 						<img src="img/rc_img.jpg" height="150">
 						<h2>採用情報</h2>
 					</p>
-					<p class="recruit">
+					<p class="service_info">
 						建築資料研究社の採用情報。私たちと一緒に頑張る人を全力でサポートしませんか。
 					</p>
-				</ul>
+				</li>
 			</ul>
-
+			<div id="cont_left">
+				<div id="release">
+					<h2>プレスリリース・メディア掲載</h2>
+					<a href="/index.aspx" class="itiran">一覧</a>
+					<div id="release_area">
+						<dl>
+							<dt>2020年08月31日</dt>
+							<dd class="release_tt1">
+								<a href="">初の電子データ出展・無観客開催となった建築学生最大イベント「卒業設計日本一決定戦」の完全ドキュメントを刊行
+								</a>
+							</dd>
+							<dt>2020年08月25日</dt>
+							<dd class="release_tt1">
+								<a href="">災害復興からコミュニティ再生まで地域マネジメントを支援するメディア年刊本「造景2020」発刊
+								</a>
+							</dd>
+							<dt>2020年08月21日</dt>
+							<dd class="release_tt1">
+								<a href="">TOKYO MX「カンニング竹山のイチバン研究所」で日建学院が紹介されました
+								</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div id="news_cont">
+					<h2>お知らせ</h2>
+					<a href="/index.aspx" class="itiran">一覧</a>
+					<div id="news_window">
+						<dl>
+							<dt>2020年 9月16日</dt>
+							<dd class="release_tt1">
+								<a href="">宅地建物取引士１２月追加試験向け対策講座　募集開始のお知らせ
+								</a>
+							</dd>
+							<dt>2020年 9月 8日</dt>
+							<dd class="release_tt1">
+								<a href="">2020年 1級建築士学科試験「合格発表」総評
+								</a>
+							<dt>2020年 8月25日</dt>
+							<dd class="release_tt1">
+								<a href="">2020年 2級建築士学科試験「合格発表」総評
+								</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<aside id="cont_right">
+				<p class="btn">
+					<a href="">
+						<img src="https://www.ksknet.co.jp/img/nikkennews_ico.jpg">
+						<img src="https://www.ksknet.co.jp/img/nikkennews.png" >
+					</a>
+				</p>
+				<p class="btn">
+					<a href="">
+						<img src="https://www.ksknet.co.jp/img/care_ico.jpg">
+						<img src="https://www.ksknet.co.jp/img/care.gif">
+					</a>
+				</p>
+				<p class="btn">
+					<a href="">
+						<img src="https://www.ksknet.co.jp/img/shop_ico.jpg">
+						<img src="https://www.ksknet.co.jp/img/shop.png">
+					</a>
+				</p>
+			</aside> 
 		</div>
+		<p id="footer_pagetop">
+			<a href="#header">
+				ページTOP
+			</a>
+		</p>
 	</main>
+	<footer id="footer">
+		<div id="footer_cont">
+			<ul id="footer_list">
+				<li>
+					<a href="">行動計画（PDF 97KB）</a>
+				</li>
+				<li>
+					<a href="">採用情報</a>
+				</li>
+				<li>
+					<a href="">ご利用規約</a>
+				</li>
+				<li>
+					<a href="">個人情報保護方針・著作権について</a>
+				</li>
+			</ul>
+		</div>
+		<p id="copyright">
+			Copyright 2015 Kenchiku Shiryo Kenkyusha CO.,LTD.
+		</p>
+	</footer>
 </body>
 </html>
 <!--
